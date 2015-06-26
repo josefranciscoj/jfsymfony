@@ -14,8 +14,8 @@
         <header class="row">
             <div class="col-lg-6">
                 <h1>Simples Blog</h1>
-                <a href="{{ path('index') }}" title="">Home</a> |
-                <a href="{{ path('post') }}" title="">administração</a>
+                <a href="{{ path('index') }}" title="Home">Home</a> |
+                <a href="{{ path('post') }}" title="Administração">Administração</a>
             </div>
         </header>
         {% block content %}
@@ -27,5 +27,5 @@
 
 {% endblock %}
 {% block javascripts %}{% endblock %}
-<body>
+</body>
 </html>
